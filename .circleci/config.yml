@@ -10,5 +10,6 @@ jobs:
     steps:
       - checkout
       - run: echo "A first hello"
-      - run: pod lint
-      - run: bundle install
+      - run:
+          name: pre-start simulator
+          command: xcrun instruments -w "iPhone 7 (10.2) [" || true
