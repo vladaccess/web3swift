@@ -10,4 +10,4 @@ jobs:
     steps:
       - checkout
       - run: echo "A first hello"
-      - run: pod install
+      - run: pod lint
