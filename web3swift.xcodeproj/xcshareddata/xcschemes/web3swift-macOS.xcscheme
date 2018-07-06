@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1CD91B2E1FD769A6007BFB45"
-               BuildableName = "web3swift-iOS_Tests.xctest"
-               BlueprintName = "web3swift-iOS_Tests"
+               BlueprintIdentifier = "417715D320362916005C3E16"
+               BuildableName = "web3swift_macOS.framework"
+               BlueprintName = "web3swift-macOS"
                ReferencedContainer = "container:web3swift.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,13 +32,22 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1CD91B2E1FD769A6007BFB45"
-               BuildableName = "web3swift-iOS_Tests.xctest"
-               BlueprintName = "web3swift-iOS_Tests"
+               BlueprintIdentifier = "81FA43F22044097000EE14D5"
+               BuildableName = "web3swift-macOS_Tests.xctest"
+               BlueprintName = "web3swift-macOS_Tests"
                ReferencedContainer = "container:web3swift.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "417715D320362916005C3E16"
+            BuildableName = "web3swift_macOS.framework"
+            BlueprintName = "web3swift-macOS"
+            ReferencedContainer = "container:web3swift.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -55,9 +64,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1CD91B2E1FD769A6007BFB45"
-            BuildableName = "web3swift-iOS_Tests.xctest"
-            BlueprintName = "web3swift-iOS_Tests"
+            BlueprintIdentifier = "417715D320362916005C3E16"
+            BuildableName = "web3swift_macOS.framework"
+            BlueprintName = "web3swift-macOS"
             ReferencedContainer = "container:web3swift.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -70,6 +79,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "417715D320362916005C3E16"
+            BuildableName = "web3swift_macOS.framework"
+            BlueprintName = "web3swift-macOS"
+            ReferencedContainer = "container:web3swift.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
