@@ -7,4 +7,4 @@ before_install:
   - brew update
   - gem install cocoapods
 script:
-  - xcodebuild -workspace Trust.xcworkspace -scheme Trust -sdk iphonesimulator -destination "platform=iOS Simulator,name=iPhone SE" test | xcpretty
+  - xcodebuild -workspace web3swift.xcworkspace -scheme web3swift-iOS -sdk iphonesimulator -destination "platform=iOS Simulator,name=iPhone SE" test | xcpretty
