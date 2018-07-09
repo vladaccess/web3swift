@@ -6,6 +6,4 @@ branches:
 before_install:
   - brew update
   - gem install cocoapods
-before_script:
-  - bundle exec danger
 script: travis_wait 30 xcodebuild -workspace web3swift.xcworkspace -scheme web3swift-iOS -sdk iphonesimulator -destination "platform=iOS Simulator,name=iPhone SE" test | xcpretty
